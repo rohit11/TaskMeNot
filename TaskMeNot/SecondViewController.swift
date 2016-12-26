@@ -20,6 +20,10 @@ class SecondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func signOut(_ sender: Any) {
+        let delegate = UIApplication.shared.delegate as! AppDelegate;
+        delegate.showLoginScreen();
+    }
 
 }
 

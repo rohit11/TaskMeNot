@@ -16,6 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        showLoginScreen();
         return true
     }
 
@@ -41,6 +43,46 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    func snapView() -> UIView {
+         let snapshot:UIView = (self.window?.snapshotView(afterScreenUpdates: true))!
+        return snapshot;
+    }
+    
+    func showTaskBarController(){
+        let storyBoard  = UIStoryboard(name: "Main", bundle: nil)
+        let taskTabBarController = storyBoard.instantiateViewController(withIdentifier: "taskTabBarController")
+
+        let snapshot:UIView = snapView()
+        taskTabBarController.view.addSubview(snapshot);
+        
+        self.window?.rootViewController = taskTabBarController
+
+        UIView.animate(withDuration: 0.8, animations: {() in
+            snapshot.layer.opacity = 0;
+            snapshot.layer.transform = CATransform3DMakeScale(1.5, 1.5, 1.5);
+        }, completion: {
+            (value: Bool) in
+            snapshot.removeFromSuperview();
+        });
+        
+    }
+    
+    func showLoginScreen(){
+        let storyBoard  = UIStoryboard(name: "Main", bundle: nil)
+        let loginNavViewController = storyBoard.instantiateViewController(withIdentifier: "loginNavController")
+        let snapshot:UIView = snapView()
+        loginNavViewController.view.addSubview(snapshot);
+        self.window?.rootViewController = loginNavViewController
+        
+        UIView.animate(withDuration: 0.8, animations: {() in
+            snapshot.layer.opacity = 0;
+            snapshot.layer.transform = CATransform3DMakeScale(1.5, 1.5, 1.5);
+        }, completion: {
+            (value: Bool) in
+            snapshot.removeFromSuperview();
+        });
+
+    }
 
 }
 
