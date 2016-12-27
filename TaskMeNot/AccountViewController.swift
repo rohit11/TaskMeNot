@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  AccountViewController.swift
 //  TaskMeNot
 //
 //  Created by Rohit Nisal on 12/23/16.
