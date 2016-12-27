@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController, UITableViewDataSource {
+class TasksViewController: UIViewController, UITableViewDataSource {
 
    @IBOutlet weak var taskTableView: UITableView!
    @IBOutlet weak var addBarButton: UIBarButtonItem!
