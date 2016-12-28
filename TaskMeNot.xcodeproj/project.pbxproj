@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7045D6551E13917E00DBD31A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7045D6541E13917E00DBD31A /* Logger.swift */; };
+		7045D6581E1391C900DBD31A /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7045D6571E1391C900DBD31A /* APIClient.swift */; };
 		7C57952B1E0D9996002FB516 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57952A1E0D9996002FB516 /* AppDelegate.swift */; };
 		7C57952D1E0D9996002FB516 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57952C1E0D9996002FB516 /* TasksViewController.swift */; };
 		7C57952F1E0D9996002FB516 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57952E1E0D9996002FB516 /* AccountViewController.swift */; };
@@ -17,6 +19,7 @@
 		7C57954D1E0D9996002FB516 /* TaskMeNotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57954C1E0D9996002FB516 /* TaskMeNotUITests.swift */; };
 		7C57955B1E0DC88A002FB516 /* AddNewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57955A1E0DC88A002FB516 /* AddNewTaskViewController.swift */; };
 		7C5795631E0E0565002FB516 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5795621E0E0565002FB516 /* LoginViewController.swift */; };
+		FCFEE71819096DE0B257BC03 /* Pods_TaskMeNot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C2DD15424E620F8C1470B6 /* Pods_TaskMeNot.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AB28FC082C1C169F5B1132E /* Pods-TaskMeNot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMeNot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaskMeNot/Pods-TaskMeNot.debug.xcconfig"; sourceTree = "<group>"; };
+		29FF731E72D0CF219F8364C4 /* Pods-TaskMeNot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMeNot.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaskMeNot/Pods-TaskMeNot.release.xcconfig"; sourceTree = "<group>"; };
+		39C2DD15424E620F8C1470B6 /* Pods_TaskMeNot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskMeNot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7045D6541E13917E00DBD31A /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Classes/Utils/Logger.swift; sourceTree = "<group>"; };
+		7045D6571E1391C900DBD31A /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIClient.swift; path = Classes/Services/APIClient.swift; sourceTree = "<group>"; };
 		7C5795271E0D9996002FB516 /* TaskMeNot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskMeNot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C57952A1E0D9996002FB516 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C57952C1E0D9996002FB516 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
-		7C57952E1E0D9996002FB516 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		7C57952C1E0D9996002FB516 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TasksViewController.swift; path = Classes/Task/ViewControllers/TasksViewController.swift; sourceTree = "<group>"; };
+		7C57952E1E0D9996002FB516 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountViewController.swift; path = Classes/Account/ViewControllers/AccountViewController.swift; sourceTree = "<group>"; };
 		7C5795311E0D9996002FB516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C5795331E0D9996002FB516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C5795361E0D9996002FB516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,8 +59,8 @@
 		7C5795481E0D9996002FB516 /* TaskMeNotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskMeNotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C57954C1E0D9996002FB516 /* TaskMeNotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskMeNotUITests.swift; sourceTree = "<group>"; };
 		7C57954E1E0D9996002FB516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C57955A1E0DC88A002FB516 /* AddNewTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewTaskViewController.swift; sourceTree = "<group>"; };
-		7C5795621E0E0565002FB516 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7C57955A1E0DC88A002FB516 /* AddNewTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddNewTaskViewController.swift; path = Classes/Task/ViewControllers/AddNewTaskViewController.swift; sourceTree = "<group>"; };
+		7C5795621E0E0565002FB516 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Classes/Login/ViewControllers/LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCFEE71819096DE0B257BC03 /* Pods_TaskMeNot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +89,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7045D64C1E138EC100DBD31A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7045D6561E13919600DBD31A /* Services */,
+				7045D6531E13911C00DBD31A /* Utils */,
+				7045D6501E1390A600DBD31A /* Account */,
+				7045D64E1E13907A00DBD31A /* Login */,
+				7045D64D1E13904300DBD31A /* Task */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		7045D64D1E13904300DBD31A /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				7C5795611E0E0538002FB516 /* ViewControllers */,
+			);
+			name = Task;
+			sourceTree = "<group>";
+		};
+		7045D64E1E13907A00DBD31A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7045D64F1E13908300DBD31A /* ViewControllers */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		7045D64F1E13908300DBD31A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7C5795621E0E0565002FB516 /* LoginViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7045D6501E1390A600DBD31A /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				7045D6511E1390AD00DBD31A /* ViewControllers */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		7045D6511E1390AD00DBD31A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7C57952E1E0D9996002FB516 /* AccountViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7045D6521E1390DC00DBD31A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7C5795301E0D9996002FB516 /* Main.storyboard */,
+				7C5795351E0D9996002FB516 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		7045D6531E13911C00DBD31A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7045D6541E13917E00DBD31A /* Logger.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		7045D6561E13919600DBD31A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7045D6571E1391C900DBD31A /* APIClient.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		7C57951E1E0D9995002FB516 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +173,8 @@
 				7C5795401E0D9996002FB516 /* TaskMeNotTests */,
 				7C57954B1E0D9996002FB516 /* TaskMeNotUITests */,
 				7C5795281E0D9996002FB516 /* Products */,
+				90C6A24B93C15B79271B01AF /* Pods */,
+				DFBA7F42018E393CED5C8A44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +191,10 @@
 		7C5795291E0D9996002FB516 /* TaskMeNot */ = {
 			isa = PBXGroup;
 			children = (
-				7C5795611E0E0538002FB516 /* View Controllers */,
+				7045D6521E1390DC00DBD31A /* Storyboards */,
+				7045D64C1E138EC100DBD31A /* Classes */,
 				7C57952A1E0D9996002FB516 /* AppDelegate.swift */,
-				7C5795301E0D9996002FB516 /* Main.storyboard */,
 				7C5795331E0D9996002FB516 /* Assets.xcassets */,
-				7C5795351E0D9996002FB516 /* LaunchScreen.storyboard */,
 				7C5795381E0D9996002FB516 /* Info.plist */,
 			);
 			path = TaskMeNot;
@@ -131,47 +218,30 @@
 			path = TaskMeNotUITests;
 			sourceTree = "<group>";
 		};
-		7C5795611E0E0538002FB516 /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				7C5795681E123149002FB516 /* Tasks */,
-				7C5795671E12313A002FB516 /* New Task */,
-				7C5795661E12312B002FB516 /* Account */,
-				7C5795651E12311F002FB516 /* Login */,
-			);
-			name = "View Controllers";
-			sourceTree = "<group>";
-		};
-		7C5795651E12311F002FB516 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				7C5795621E0E0565002FB516 /* LoginViewController.swift */,
-			);
-			name = Login;
-			sourceTree = "<group>";
-		};
-		7C5795661E12312B002FB516 /* Account */ = {
-			isa = PBXGroup;
-			children = (
-				7C57952E1E0D9996002FB516 /* AccountViewController.swift */,
-			);
-			name = Account;
-			sourceTree = "<group>";
-		};
-		7C5795671E12313A002FB516 /* New Task */ = {
-			isa = PBXGroup;
-			children = (
-				7C57955A1E0DC88A002FB516 /* AddNewTaskViewController.swift */,
-			);
-			name = "New Task";
-			sourceTree = "<group>";
-		};
-		7C5795681E123149002FB516 /* Tasks */ = {
+		7C5795611E0E0538002FB516 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				7C57952C1E0D9996002FB516 /* TasksViewController.swift */,
+				7C57955A1E0DC88A002FB516 /* AddNewTaskViewController.swift */,
 			);
-			name = Tasks;
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		90C6A24B93C15B79271B01AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AB28FC082C1C169F5B1132E /* Pods-TaskMeNot.debug.xcconfig */,
+				29FF731E72D0CF219F8364C4 /* Pods-TaskMeNot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFBA7F42018E393CED5C8A44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39C2DD15424E620F8C1470B6 /* Pods_TaskMeNot.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C5795511E0D9996002FB516 /* Build configuration list for PBXNativeTarget "TaskMeNot" */;
 			buildPhases = (
+				9F65CE996925AC18A4817500 /* [CP] Check Pods Manifest.lock */,
 				7C5795231E0D9995002FB516 /* Sources */,
 				7C5795241E0D9995002FB516 /* Frameworks */,
 				7C5795251E0D9995002FB516 /* Resources */,
+				237E409D8766F963701E9A2B /* [CP] Embed Pods Frameworks */,
+				51077368D9262CBBE5C649BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -304,12 +377,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		237E409D8766F963701E9A2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaskMeNot/Pods-TaskMeNot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51077368D9262CBBE5C649BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaskMeNot/Pods-TaskMeNot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F65CE996925AC18A4817500 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7C5795231E0D9995002FB516 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7C57952F1E0D9996002FB516 /* AccountViewController.swift in Sources */,
+				7045D6581E1391C900DBD31A /* APIClient.swift in Sources */,
+				7045D6551E13917E00DBD31A /* Logger.swift in Sources */,
 				7C57952B1E0D9996002FB516 /* AppDelegate.swift in Sources */,
 				7C57955B1E0DC88A002FB516 /* AddNewTaskViewController.swift in Sources */,
 				7C5795631E0E0565002FB516 /* LoginViewController.swift in Sources */,
@@ -461,6 +584,7 @@
 		};
 		7C5795521E0D9996002FB516 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB28FC082C1C169F5B1132E /* Pods-TaskMeNot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3Y57FJF6PJ;
@@ -475,6 +599,7 @@
 		};
 		7C5795531E0D9996002FB516 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FF731E72D0CF219F8364C4 /* Pods-TaskMeNot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3Y57FJF6PJ;
