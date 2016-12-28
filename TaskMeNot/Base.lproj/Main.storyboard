@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -486,7 +486,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ahV-OL-8Rg" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Tasks" image="first" id="acW-dT-cKf"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BXd-3B-99V">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="BXd-3B-99V">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -505,7 +505,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2Ri-Mn-tWv" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Account" image="second" id="cPa-gy-q4n"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Io3-Fa-9eu">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Io3-Fa-9eu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -524,7 +524,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="M9z-lb-93S" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Chat" image="first" badgeValue="10" id="mZM-8a-2KD"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1hw-Mx-dWq">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="1hw-Mx-dWq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -543,7 +543,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zQH-oT-78B" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Settings" image="second" id="gwL-Yx-QOe"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Uv8-9H-Zgu">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Uv8-9H-Zgu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -561,7 +561,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WeR-fP-VyE" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xnI-md-11g">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="xnI-md-11g">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -581,7 +581,7 @@
             <objects>
                 <navigationController storyboardIdentifier="loginNavController" automaticallyAdjustsScrollViewInsets="NO" id="3Mh-1X-04i" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Mqp-9E-bkM">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Mqp-9E-bkM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
