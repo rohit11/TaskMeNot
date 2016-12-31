@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>365868782598-l5ul5hbqo3mk9qt9a7ia0enb1jv5b7q4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.365868782598-l5ul5hbqo3mk9qt9a7ia0enb1jv5b7q4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA3nJOlkMTBlsmiz0cW7B3kQT06YwGpiRg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>365868782598</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.iphone.TaskMeNot</string>
+	<key>PROJECT_ID</key>
+	<string>taskmenot-3bee2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>taskmenot-3bee2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:365868782598:ios:42259b05989c9f64</string>
+	<key>DATABASE_URL</key>
+	<string>https://taskmenot-3bee2.firebaseio.com</string>
+</dict>
+</plist>
