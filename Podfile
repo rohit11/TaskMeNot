@@ -5,6 +5,7 @@ use_frameworks!
 
 def shared_pods
     pod 'Alamofire', '~> 4.0.0'
+    pod 'XCGLogger', '~> 4.0.0'
     pod 'Firebase/Core'
     pod 'Firebase/Database'
     pod 'Firebase/Auth'

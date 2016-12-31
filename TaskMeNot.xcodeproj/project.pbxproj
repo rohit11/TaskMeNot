@@ -28,6 +28,10 @@
 		70E415061E1783AF005CB4A4 /* GoogleServiceDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E414F11E176E95005CB4A4 /* GoogleServiceDev-Info.plist */; };
 		70E415071E1783AF005CB4A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C5795301E0D9996002FB516 /* Main.storyboard */; };
 		70E415081E1783AF005CB4A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E414F31E176EEA005CB4A4 /* GoogleService-Info.plist */; };
+		70E415121E17B95C005CB4A4 /* AsynchronousOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E415111E17B95C005CB4A4 /* AsynchronousOperation.swift */; };
+		70E415141E17B9B8005CB4A4 /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E415131E17B9B8005CB4A4 /* NetworkOperation.swift */; };
+		70E415151E17BBE0005CB4A4 /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E415131E17B9B8005CB4A4 /* NetworkOperation.swift */; };
+		70E415161E17BBE3005CB4A4 /* AsynchronousOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E415111E17B95C005CB4A4 /* AsynchronousOperation.swift */; };
 		7C57952B1E0D9996002FB516 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57952A1E0D9996002FB516 /* AppDelegate.swift */; };
 		7C57952D1E0D9996002FB516 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57952C1E0D9996002FB516 /* TasksViewController.swift */; };
 		7C57952F1E0D9996002FB516 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57952E1E0D9996002FB516 /* AccountViewController.swift */; };
@@ -38,6 +42,7 @@
 		7C57954D1E0D9996002FB516 /* TaskMeNotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57954C1E0D9996002FB516 /* TaskMeNotUITests.swift */; };
 		7C57955B1E0DC88A002FB516 /* AddNewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57955A1E0DC88A002FB516 /* AddNewTaskViewController.swift */; };
 		7C5795631E0E0565002FB516 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5795621E0E0565002FB516 /* LoginViewController.swift */; };
+		F42758490003FB590A2EFE75 /* Pods_TaskMeNotDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC01CC6F4ABEB59191D706AC /* Pods_TaskMeNotDev.framework */; };
 		FCFEE71819096DE0B257BC03 /* Pods_TaskMeNot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C2DD15424E620F8C1470B6 /* Pods_TaskMeNot.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +75,8 @@
 		70E414F31E176EEA005CB4A4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		70E4150E1E1783AF005CB4A4 /* TaskMeNotDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskMeNotDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70E4150F1E1783AF005CB4A4 /* TaskMeNotDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TaskMeNotDev-Info.plist"; path = "/Users/malinkas/Documents/Projects/malinka-git/TaskMeNot-1/TaskMeNotDev-Info.plist"; sourceTree = "<absolute>"; };
+		70E415111E17B95C005CB4A4 /* AsynchronousOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AsynchronousOperation.swift; path = Classes/Services/AsynchronousOperation.swift; sourceTree = "<group>"; };
+		70E415131E17B9B8005CB4A4 /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkOperation.swift; path = Classes/Services/NetworkOperation.swift; sourceTree = "<group>"; };
 		7C5795271E0D9996002FB516 /* TaskMeNot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskMeNot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C57952A1E0D9996002FB516 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C57952C1E0D9996002FB516 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TasksViewController.swift; path = Classes/ViewControllers/Task/TasksViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +93,9 @@
 		7C57954E1E0D9996002FB516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C57955A1E0DC88A002FB516 /* AddNewTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddNewTaskViewController.swift; path = Classes/ViewControllers/Task/AddNewTaskViewController.swift; sourceTree = "<group>"; };
 		7C5795621E0E0565002FB516 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Classes/ViewControllers/Login/LoginViewController.swift; sourceTree = "<group>"; };
+		91D649B61CC6374BF24E1E5F /* Pods-TaskMeNotDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMeNotDev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaskMeNotDev/Pods-TaskMeNotDev.debug.xcconfig"; sourceTree = "<group>"; };
+		BC01CC6F4ABEB59191D706AC /* Pods_TaskMeNotDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskMeNotDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC63853F43606A427C213ABD /* Pods-TaskMeNotDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMeNotDev.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaskMeNotDev/Pods-TaskMeNotDev.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70E415011E1783AF005CB4A4 /* Pods_TaskMeNot.framework in Frameworks */,
+				F42758490003FB590A2EFE75 /* Pods_TaskMeNotDev.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +136,7 @@
 		7045D64C1E138EC100DBD31A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				70E415101E17B8F9005CB4A4 /* Services */,
 				70E414E91E175AFD005CB4A4 /* ViewControllers */,
 				7045D6561E13919600DBD31A /* Services */,
 				7045D6531E13911C00DBD31A /* Utils */,
@@ -193,6 +205,15 @@
 			name = Task;
 			sourceTree = "<group>";
 		};
+		70E415101E17B8F9005CB4A4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				70E415111E17B95C005CB4A4 /* AsynchronousOperation.swift */,
+				70E415131E17B9B8005CB4A4 /* NetworkOperation.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		7C57951E1E0D9995002FB516 = {
 			isa = PBXGroup;
 			children = (
@@ -255,6 +276,8 @@
 			children = (
 				1AB28FC082C1C169F5B1132E /* Pods-TaskMeNot.debug.xcconfig */,
 				29FF731E72D0CF219F8364C4 /* Pods-TaskMeNot.release.xcconfig */,
+				91D649B61CC6374BF24E1E5F /* Pods-TaskMeNotDev.debug.xcconfig */,
+				BC63853F43606A427C213ABD /* Pods-TaskMeNotDev.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -263,6 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				39C2DD15424E620F8C1470B6 /* Pods_TaskMeNot.framework */,
+				BC01CC6F4ABEB59191D706AC /* Pods_TaskMeNotDev.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -498,7 +522,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaskMeNot/Pods-TaskMeNot-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaskMeNotDev/Pods-TaskMeNotDev-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		70E4150A1E1783AF005CB4A4 /* [CP] Copy Pods Resources */ = {
@@ -513,7 +537,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaskMeNot/Pods-TaskMeNot-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaskMeNotDev/Pods-TaskMeNotDev-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9F65CE996925AC18A4817500 /* [CP] Check Pods Manifest.lock */ = {
@@ -545,6 +569,8 @@
 				70E414FC1E1783AF005CB4A4 /* AddNewTaskViewController.swift in Sources */,
 				70E414FD1E1783AF005CB4A4 /* LoginViewController.swift in Sources */,
 				70E414FE1E1783AF005CB4A4 /* TasksViewController.swift in Sources */,
+				70E415161E17BBE3005CB4A4 /* AsynchronousOperation.swift in Sources */,
+				70E415151E17BBE0005CB4A4 /* NetworkOperation.swift in Sources */,
 				70E414FF1E1783AF005CB4A4 /* ConfigUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -555,9 +581,11 @@
 			files = (
 				7C57952F1E0D9996002FB516 /* AccountViewController.swift in Sources */,
 				7045D6581E1391C900DBD31A /* APIClient.swift in Sources */,
+				70E415141E17B9B8005CB4A4 /* NetworkOperation.swift in Sources */,
 				7045D6551E13917E00DBD31A /* Logger.swift in Sources */,
 				7C57952B1E0D9996002FB516 /* AppDelegate.swift in Sources */,
 				7C57955B1E0DC88A002FB516 /* AddNewTaskViewController.swift in Sources */,
+				70E415121E17B95C005CB4A4 /* AsynchronousOperation.swift in Sources */,
 				7C5795631E0E0565002FB516 /* LoginViewController.swift in Sources */,
 				7C57952D1E0D9996002FB516 /* TasksViewController.swift in Sources */,
 				70E414F01E176BFA005CB4A4 /* ConfigUtil.swift in Sources */,
@@ -617,7 +645,7 @@
 /* Begin XCBuildConfiguration section */
 		70E4150C1E1783AF005CB4A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AB28FC082C1C169F5B1132E /* Pods-TaskMeNot.debug.xcconfig */;
+			baseConfigurationReference = 91D649B61CC6374BF24E1E5F /* Pods-TaskMeNotDev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3Y57FJF6PJ;
@@ -640,7 +668,7 @@
 		};
 		70E4150D1E1783AF005CB4A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29FF731E72D0CF219F8364C4 /* Pods-TaskMeNot.release.xcconfig */;
+			baseConfigurationReference = BC63853F43606A427C213ABD /* Pods-TaskMeNotDev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3Y57FJF6PJ;
