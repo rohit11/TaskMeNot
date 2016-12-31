@@ -32,6 +32,8 @@
 		70E415141E17B9B8005CB4A4 /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E415131E17B9B8005CB4A4 /* NetworkOperation.swift */; };
 		70E415151E17BBE0005CB4A4 /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E415131E17B9B8005CB4A4 /* NetworkOperation.swift */; };
 		70E415161E17BBE3005CB4A4 /* AsynchronousOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E415111E17B95C005CB4A4 /* AsynchronousOperation.swift */; };
+		70E415171E17C280005CB4A4 /* TaskMeNotDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E4150F1E1783AF005CB4A4 /* TaskMeNotDev-Info.plist */; };
+		70E415181E17C281005CB4A4 /* TaskMeNotDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E4150F1E1783AF005CB4A4 /* TaskMeNotDev-Info.plist */; };
 		7C57952B1E0D9996002FB516 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57952A1E0D9996002FB516 /* AppDelegate.swift */; };
 		7C57952D1E0D9996002FB516 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57952C1E0D9996002FB516 /* TasksViewController.swift */; };
 		7C57952F1E0D9996002FB516 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57952E1E0D9996002FB516 /* AccountViewController.swift */; };
@@ -74,7 +76,7 @@
 		70E414F11E176E95005CB4A4 /* GoogleServiceDev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleServiceDev-Info.plist"; sourceTree = "<group>"; };
 		70E414F31E176EEA005CB4A4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		70E4150E1E1783AF005CB4A4 /* TaskMeNotDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskMeNotDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		70E4150F1E1783AF005CB4A4 /* TaskMeNotDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TaskMeNotDev-Info.plist"; path = "/Users/malinkas/Documents/Projects/malinka-git/TaskMeNot-1/TaskMeNotDev-Info.plist"; sourceTree = "<absolute>"; };
+		70E4150F1E1783AF005CB4A4 /* TaskMeNotDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TaskMeNotDev-Info.plist"; path = "/Users/malinkas/Documents/Projects/malinka-git/TaskMeNot-1/TaskMeNot/TaskMeNotDev-Info.plist"; sourceTree = "<absolute>"; };
 		70E415111E17B95C005CB4A4 /* AsynchronousOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AsynchronousOperation.swift; path = Classes/Services/AsynchronousOperation.swift; sourceTree = "<group>"; };
 		70E415131E17B9B8005CB4A4 /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkOperation.swift; path = Classes/Services/NetworkOperation.swift; sourceTree = "<group>"; };
 		7C5795271E0D9996002FB516 /* TaskMeNot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskMeNot.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -429,6 +431,7 @@
 				70E415031E1783AF005CB4A4 /* config_default.plist in Resources */,
 				70E415041E1783AF005CB4A4 /* LaunchScreen.storyboard in Resources */,
 				70E415051E1783AF005CB4A4 /* Assets.xcassets in Resources */,
+				70E415181E17C281005CB4A4 /* TaskMeNotDev-Info.plist in Resources */,
 				70E415061E1783AF005CB4A4 /* GoogleServiceDev-Info.plist in Resources */,
 				70E415071E1783AF005CB4A4 /* Main.storyboard in Resources */,
 				70E415081E1783AF005CB4A4 /* GoogleService-Info.plist in Resources */,
@@ -442,6 +445,7 @@
 				70E414EE1E176AEE005CB4A4 /* config_default.plist in Resources */,
 				7C5795371E0D9996002FB516 /* LaunchScreen.storyboard in Resources */,
 				7C5795341E0D9996002FB516 /* Assets.xcassets in Resources */,
+				70E415171E17C280005CB4A4 /* TaskMeNotDev-Info.plist in Resources */,
 				70E414F21E176E95005CB4A4 /* GoogleServiceDev-Info.plist in Resources */,
 				7C5795321E0D9996002FB516 /* Main.storyboard in Resources */,
 				70E414F41E176EEA005CB4A4 /* GoogleService-Info.plist in Resources */,
@@ -656,7 +660,7 @@
 					"GTM_OAUTH2_USE_FRAMEWORK_IMPORTS=1",
 					"DEVELOPMENT=1",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/TaskMeNotDev-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TaskMeNot/TaskMeNotDev-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DDEVELOPMENT";
@@ -679,7 +683,7 @@
 					"GTM_OAUTH2_USE_FRAMEWORK_IMPORTS=1",
 					"DEVELOPMENT=1",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/TaskMeNotDev-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TaskMeNot/TaskMeNotDev-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DDEVELOPMENT";
