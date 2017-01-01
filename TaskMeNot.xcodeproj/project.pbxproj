@@ -8,13 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		7045D6551E13917E00DBD31A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7045D6541E13917E00DBD31A /* Logger.swift */; };
-		7045D6581E1391C900DBD31A /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7045D6571E1391C900DBD31A /* APIClient.swift */; };
 		70E414EE1E176AEE005CB4A4 /* config_default.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E414ED1E176AEE005CB4A4 /* config_default.plist */; };
 		70E414F01E176BFA005CB4A4 /* ConfigUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E414EF1E176BFA005CB4A4 /* ConfigUtil.swift */; };
 		70E414F21E176E95005CB4A4 /* GoogleServiceDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E414F11E176E95005CB4A4 /* GoogleServiceDev-Info.plist */; };
 		70E414F41E176EEA005CB4A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E414F31E176EEA005CB4A4 /* GoogleService-Info.plist */; };
 		70E414F81E1783AF005CB4A4 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57952E1E0D9996002FB516 /* AccountViewController.swift */; };
-		70E414F91E1783AF005CB4A4 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7045D6571E1391C900DBD31A /* APIClient.swift */; };
 		70E414FA1E1783AF005CB4A4 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7045D6541E13917E00DBD31A /* Logger.swift */; };
 		70E414FB1E1783AF005CB4A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57952A1E0D9996002FB516 /* AppDelegate.swift */; };
 		70E414FC1E1783AF005CB4A4 /* AddNewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57955A1E0DC88A002FB516 /* AddNewTaskViewController.swift */; };
@@ -70,7 +68,6 @@
 		29FF731E72D0CF219F8364C4 /* Pods-TaskMeNot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMeNot.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaskMeNot/Pods-TaskMeNot.release.xcconfig"; sourceTree = "<group>"; };
 		39C2DD15424E620F8C1470B6 /* Pods_TaskMeNot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskMeNot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7045D6541E13917E00DBD31A /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Classes/Utils/Logger.swift; sourceTree = "<group>"; };
-		7045D6571E1391C900DBD31A /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIClient.swift; path = Classes/Services/APIClient.swift; sourceTree = "<group>"; };
 		70E414ED1E176AEE005CB4A4 /* config_default.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config_default.plist; sourceTree = "<group>"; };
 		70E414EF1E176BFA005CB4A4 /* ConfigUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfigUtil.swift; path = Classes/Utils/ConfigUtil.swift; sourceTree = "<group>"; };
 		70E414F11E176E95005CB4A4 /* GoogleServiceDev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleServiceDev-Info.plist"; sourceTree = "<group>"; };
@@ -140,7 +137,6 @@
 			children = (
 				70E415101E17B8F9005CB4A4 /* Services */,
 				70E414E91E175AFD005CB4A4 /* ViewControllers */,
-				7045D6561E13919600DBD31A /* Services */,
 				7045D6531E13911C00DBD31A /* Utils */,
 			);
 			name = Classes;
@@ -162,14 +158,6 @@
 				70E414EF1E176BFA005CB4A4 /* ConfigUtil.swift */,
 			);
 			name = Utils;
-			sourceTree = "<group>";
-		};
-		7045D6561E13919600DBD31A /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				7045D6571E1391C900DBD31A /* APIClient.swift */,
-			);
-			name = Services;
 			sourceTree = "<group>";
 		};
 		70E414E91E175AFD005CB4A4 /* ViewControllers */ = {
@@ -567,7 +555,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				70E414F81E1783AF005CB4A4 /* AccountViewController.swift in Sources */,
-				70E414F91E1783AF005CB4A4 /* APIClient.swift in Sources */,
 				70E414FA1E1783AF005CB4A4 /* Logger.swift in Sources */,
 				70E414FB1E1783AF005CB4A4 /* AppDelegate.swift in Sources */,
 				70E414FC1E1783AF005CB4A4 /* AddNewTaskViewController.swift in Sources */,
@@ -584,7 +571,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C57952F1E0D9996002FB516 /* AccountViewController.swift in Sources */,
-				7045D6581E1391C900DBD31A /* APIClient.swift in Sources */,
 				70E415141E17B9B8005CB4A4 /* NetworkOperation.swift in Sources */,
 				7045D6551E13917E00DBD31A /* Logger.swift in Sources */,
 				7C57952B1E0D9996002FB516 /* AppDelegate.swift in Sources */,
