@@ -27,16 +27,18 @@ class ConfigUtil: NSObject {
      **/
     private func readValuesFromConfig(){
         var plistDictionary: NSDictionary?
-        if let path = Bundle.main.path(forResource: "config_default", ofType: "plist") {
+        var plistName = "config_default_prod"
+        #if DEVELOPMENT
+            plistName = "config_default_dev"
+        #endif
+        if let path = Bundle.main.path(forResource: plistName, ofType: "plist") {
             plistDictionary = NSDictionary(contentsOfFile: path)
         }
         if let configDictionary = plistDictionary!["config"] as! [String : String]! {
             
             baseURL = configDictionary["baseURL"] ?? ""
             firebasePlistFileName = configDictionary["firebasePlistFileName"] ?? ""
-            #if DEVELOPMENT
-                firebasePlistFileName = configDictionary["firebasePlistFileNameDev"] ?? ""
-            #endif
+            
             
         }
     }

@@ -10,9 +10,10 @@ import UIKit
 
 class LoginViewController: UIViewController {
     
+    @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var backgroundImageView: UIImageView!
-    @IBOutlet weak var passwordTxtField: UITextField!
-    @IBOutlet weak var userNameTxtField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+    let loginViewModel = LoginViewModel()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -29,8 +30,25 @@ class LoginViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func loginButtonClick(_ sender: Any) {
-        let delegate = UIApplication.shared.delegate as! AppDelegate;
-        delegate.showTaskBarController();
+    @IBAction func didTapSignIn(_ sender: UIButton) {
+        guard let email = emailField.text, let password = passwordField.text else {
+            print("Email and password should be entered to proceed")
+            return
+        }
+//        activityIndicator.isHidden = false
+//        activityIndicator.startAnimating()
+        loginViewModel.signInUser(withEmail: email, password: password, completionHandler: { response in
+            switch response {
+            case let .success(responseData) :
+                print(responseData)
+//                self.activityIndicator.stopAnimating()
+                self.performSegue(withIdentifier: "showApp", sender: nil)
+            case let .error(errorMessage) :
+                print(errorMessage)
+//                self.activityIndicator.stopAnimating()
+                
+            }
+        })
     }
+    
 }

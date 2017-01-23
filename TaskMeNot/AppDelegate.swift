@@ -25,7 +25,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let firbaseOptions = FIROptions(contentsOfFile: Bundle.main.path(forResource: ConfigUtil.sharedInstance.firebasePlistFileName, ofType: "plist"))
         
         FIRApp.configure(with : firbaseOptions!)
-        showLoginScreen();
         return true
     }
 
