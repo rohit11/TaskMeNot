@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>config</key>
+	<dict>
+		<key>firebasePlistFileName</key>
+		<string>GoogleService-Info</string>
+		<key>baseURL</key>
+		<string>&lt;base-url&gt;</string>
+	</dict>
+</dict>
+</plist>

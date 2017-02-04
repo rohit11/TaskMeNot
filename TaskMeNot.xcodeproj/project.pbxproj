@@ -7,8 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7045D6551E13917E00DBD31A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7045D6541E13917E00DBD31A /* Logger.swift */; };
-		7045D6581E1391C900DBD31A /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7045D6571E1391C900DBD31A /* APIClient.swift */; };
+		70E414EE1E176AEE005CB4A4 /* config_default_prod.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E414ED1E176AEE005CB4A4 /* config_default_prod.plist */; };
+		70E414F01E176BFA005CB4A4 /* ConfigUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E414EF1E176BFA005CB4A4 /* ConfigUtil.swift */; };
+		70E414F21E176E95005CB4A4 /* GoogleServiceDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E414F11E176E95005CB4A4 /* GoogleServiceDev-Info.plist */; };
+		70E414F41E176EEA005CB4A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E414F31E176EEA005CB4A4 /* GoogleService-Info.plist */; };
+		70E414F81E1783AF005CB4A4 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57952E1E0D9996002FB516 /* AccountViewController.swift */; };
+		70E414FB1E1783AF005CB4A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57952A1E0D9996002FB516 /* AppDelegate.swift */; };
+		70E414FC1E1783AF005CB4A4 /* AddNewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57955A1E0DC88A002FB516 /* AddNewTaskViewController.swift */; };
+		70E414FD1E1783AF005CB4A4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5795621E0E0565002FB516 /* LoginViewController.swift */; };
+		70E414FE1E1783AF005CB4A4 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57952C1E0D9996002FB516 /* TasksViewController.swift */; };
+		70E414FF1E1783AF005CB4A4 /* ConfigUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E414EF1E176BFA005CB4A4 /* ConfigUtil.swift */; };
+		70E415011E1783AF005CB4A4 /* Pods_TaskMeNot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C2DD15424E620F8C1470B6 /* Pods_TaskMeNot.framework */; };
+		70E415031E1783AF005CB4A4 /* config_default_prod.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E414ED1E176AEE005CB4A4 /* config_default_prod.plist */; };
+		70E415041E1783AF005CB4A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C5795351E0D9996002FB516 /* LaunchScreen.storyboard */; };
+		70E415051E1783AF005CB4A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C5795331E0D9996002FB516 /* Assets.xcassets */; };
+		70E415061E1783AF005CB4A4 /* GoogleServiceDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E414F11E176E95005CB4A4 /* GoogleServiceDev-Info.plist */; };
+		70E415071E1783AF005CB4A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C5795301E0D9996002FB516 /* Main.storyboard */; };
+		70E415081E1783AF005CB4A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E414F31E176EEA005CB4A4 /* GoogleService-Info.plist */; };
+		70E415121E17B95C005CB4A4 /* AsynchronousOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E415111E17B95C005CB4A4 /* AsynchronousOperation.swift */; };
+		70E415141E17B9B8005CB4A4 /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E415131E17B9B8005CB4A4 /* NetworkOperation.swift */; };
+		70E415151E17BBE0005CB4A4 /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E415131E17B9B8005CB4A4 /* NetworkOperation.swift */; };
+		70E415161E17BBE3005CB4A4 /* AsynchronousOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E415111E17B95C005CB4A4 /* AsynchronousOperation.swift */; };
+		70E415171E17C280005CB4A4 /* TaskMeNotDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E4150F1E1783AF005CB4A4 /* TaskMeNotDev-Info.plist */; };
+		70E415181E17C281005CB4A4 /* TaskMeNotDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E4150F1E1783AF005CB4A4 /* TaskMeNotDev-Info.plist */; };
+		70F2B09C1E35927D006327E9 /* Tasks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F2B09A1E35927D006327E9 /* Tasks.storyboard */; };
+		70F2B09E1E3598CE006327E9 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F2B09D1E3598CE006327E9 /* LoginViewModel.swift */; };
+		70F2B0A01E35A8A7006327E9 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F2B09D1E3598CE006327E9 /* LoginViewModel.swift */; };
+		70F2B0A31E35A991006327E9 /* UserPersistenceOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F2B0A21E35A991006327E9 /* UserPersistenceOperation.swift */; };
+		70F2B0A61E35AA27006327E9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F2B0A51E35AA27006327E9 /* User.swift */; };
+		70F2B0A81E35D81C006327E9 /* config_default_dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70F2B0A71E35D81C006327E9 /* config_default_dev.plist */; };
+		70F2B0A91E35D9FA006327E9 /* config_default_dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70F2B0A71E35D81C006327E9 /* config_default_dev.plist */; };
 		7C57952B1E0D9996002FB516 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57952A1E0D9996002FB516 /* AppDelegate.swift */; };
 		7C57952D1E0D9996002FB516 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57952C1E0D9996002FB516 /* TasksViewController.swift */; };
 		7C57952F1E0D9996002FB516 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57952E1E0D9996002FB516 /* AccountViewController.swift */; };
@@ -19,6 +47,7 @@
 		7C57954D1E0D9996002FB516 /* TaskMeNotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57954C1E0D9996002FB516 /* TaskMeNotUITests.swift */; };
 		7C57955B1E0DC88A002FB516 /* AddNewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C57955A1E0DC88A002FB516 /* AddNewTaskViewController.swift */; };
 		7C5795631E0E0565002FB516 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5795621E0E0565002FB516 /* LoginViewController.swift */; };
+		F42758490003FB590A2EFE75 /* Pods_TaskMeNotDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC01CC6F4ABEB59191D706AC /* Pods_TaskMeNotDev.framework */; };
 		FCFEE71819096DE0B257BC03 /* Pods_TaskMeNot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C2DD15424E620F8C1470B6 /* Pods_TaskMeNot.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,12 +72,23 @@
 		1AB28FC082C1C169F5B1132E /* Pods-TaskMeNot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMeNot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaskMeNot/Pods-TaskMeNot.debug.xcconfig"; sourceTree = "<group>"; };
 		29FF731E72D0CF219F8364C4 /* Pods-TaskMeNot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMeNot.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaskMeNot/Pods-TaskMeNot.release.xcconfig"; sourceTree = "<group>"; };
 		39C2DD15424E620F8C1470B6 /* Pods_TaskMeNot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskMeNot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7045D6541E13917E00DBD31A /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Classes/Utils/Logger.swift; sourceTree = "<group>"; };
-		7045D6571E1391C900DBD31A /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIClient.swift; path = Classes/Services/APIClient.swift; sourceTree = "<group>"; };
+		70E414ED1E176AEE005CB4A4 /* config_default_prod.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config_default_prod.plist; sourceTree = "<group>"; };
+		70E414EF1E176BFA005CB4A4 /* ConfigUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfigUtil.swift; path = Classes/Utils/ConfigUtil.swift; sourceTree = "<group>"; };
+		70E414F11E176E95005CB4A4 /* GoogleServiceDev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleServiceDev-Info.plist"; sourceTree = "<group>"; };
+		70E414F31E176EEA005CB4A4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		70E4150E1E1783AF005CB4A4 /* TaskMeNotDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskMeNotDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E4150F1E1783AF005CB4A4 /* TaskMeNotDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TaskMeNotDev-Info.plist"; path = "/Users/malinkas/Documents/Projects/malinka-git/TaskMeNot-1/TaskMeNot/TaskMeNotDev-Info.plist"; sourceTree = "<absolute>"; };
+		70E415111E17B95C005CB4A4 /* AsynchronousOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AsynchronousOperation.swift; path = Classes/Services/AsynchronousOperation.swift; sourceTree = "<group>"; };
+		70E415131E17B9B8005CB4A4 /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkOperation.swift; path = Classes/Services/NetworkOperation.swift; sourceTree = "<group>"; };
+		70F2B09B1E35927D006327E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Tasks.storyboard; sourceTree = "<group>"; };
+		70F2B09D1E3598CE006327E9 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewModel.swift; path = Classes/ViewModels/LoginViewModel.swift; sourceTree = "<group>"; };
+		70F2B0A21E35A991006327E9 /* UserPersistenceOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserPersistenceOperation.swift; path = Classes/Services/Persistence/UserPersistenceOperation.swift; sourceTree = "<group>"; };
+		70F2B0A51E35AA27006327E9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Classes/Models/User.swift; sourceTree = "<group>"; };
+		70F2B0A71E35D81C006327E9 /* config_default_dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config_default_dev.plist; sourceTree = "<group>"; };
 		7C5795271E0D9996002FB516 /* TaskMeNot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskMeNot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C57952A1E0D9996002FB516 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C57952C1E0D9996002FB516 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TasksViewController.swift; path = Classes/Task/ViewControllers/TasksViewController.swift; sourceTree = "<group>"; };
-		7C57952E1E0D9996002FB516 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountViewController.swift; path = Classes/Account/ViewControllers/AccountViewController.swift; sourceTree = "<group>"; };
+		7C57952C1E0D9996002FB516 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TasksViewController.swift; path = Classes/ViewControllers/Task/TasksViewController.swift; sourceTree = "<group>"; };
+		7C57952E1E0D9996002FB516 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountViewController.swift; path = Classes/ViewControllers/Account/AccountViewController.swift; sourceTree = "<group>"; };
 		7C5795311E0D9996002FB516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C5795331E0D9996002FB516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C5795361E0D9996002FB516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,11 +99,23 @@
 		7C5795481E0D9996002FB516 /* TaskMeNotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskMeNotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C57954C1E0D9996002FB516 /* TaskMeNotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskMeNotUITests.swift; sourceTree = "<group>"; };
 		7C57954E1E0D9996002FB516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C57955A1E0DC88A002FB516 /* AddNewTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddNewTaskViewController.swift; path = Classes/Task/ViewControllers/AddNewTaskViewController.swift; sourceTree = "<group>"; };
-		7C5795621E0E0565002FB516 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Classes/Login/ViewControllers/LoginViewController.swift; sourceTree = "<group>"; };
+		7C57955A1E0DC88A002FB516 /* AddNewTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddNewTaskViewController.swift; path = Classes/ViewControllers/Task/AddNewTaskViewController.swift; sourceTree = "<group>"; };
+		7C5795621E0E0565002FB516 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Classes/ViewControllers/Login/LoginViewController.swift; sourceTree = "<group>"; };
+		91D649B61CC6374BF24E1E5F /* Pods-TaskMeNotDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMeNotDev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaskMeNotDev/Pods-TaskMeNotDev.debug.xcconfig"; sourceTree = "<group>"; };
+		BC01CC6F4ABEB59191D706AC /* Pods_TaskMeNotDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskMeNotDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC63853F43606A427C213ABD /* Pods-TaskMeNotDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMeNotDev.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaskMeNotDev/Pods-TaskMeNotDev.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		70E415001E1783AF005CB4A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E415011E1783AF005CB4A4 /* Pods_TaskMeNot.framework in Frameworks */,
+				F42758490003FB590A2EFE75 /* Pods_TaskMeNotDev.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7C5795241E0D9995002FB516 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -92,53 +144,13 @@
 		7045D64C1E138EC100DBD31A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7045D6561E13919600DBD31A /* Services */,
+				70F2B0A41E35AA09006327E9 /* Models */,
+				70F2B09F1E3598D7006327E9 /* ViewModels */,
+				70E415101E17B8F9005CB4A4 /* Services */,
+				70E414E91E175AFD005CB4A4 /* ViewControllers */,
 				7045D6531E13911C00DBD31A /* Utils */,
-				7045D6501E1390A600DBD31A /* Account */,
-				7045D64E1E13907A00DBD31A /* Login */,
-				7045D64D1E13904300DBD31A /* Task */,
 			);
 			name = Classes;
-			sourceTree = "<group>";
-		};
-		7045D64D1E13904300DBD31A /* Task */ = {
-			isa = PBXGroup;
-			children = (
-				7C5795611E0E0538002FB516 /* ViewControllers */,
-			);
-			name = Task;
-			sourceTree = "<group>";
-		};
-		7045D64E1E13907A00DBD31A /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				7045D64F1E13908300DBD31A /* ViewControllers */,
-			);
-			name = Login;
-			sourceTree = "<group>";
-		};
-		7045D64F1E13908300DBD31A /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				7C5795621E0E0565002FB516 /* LoginViewController.swift */,
-			);
-			name = ViewControllers;
-			sourceTree = "<group>";
-		};
-		7045D6501E1390A600DBD31A /* Account */ = {
-			isa = PBXGroup;
-			children = (
-				7045D6511E1390AD00DBD31A /* ViewControllers */,
-			);
-			name = Account;
-			sourceTree = "<group>";
-		};
-		7045D6511E1390AD00DBD31A /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				7C57952E1E0D9996002FB516 /* AccountViewController.swift */,
-			);
-			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 		7045D6521E1390DC00DBD31A /* Storyboards */ = {
@@ -146,6 +158,7 @@
 			children = (
 				7C5795301E0D9996002FB516 /* Main.storyboard */,
 				7C5795351E0D9996002FB516 /* LaunchScreen.storyboard */,
+				70F2B09A1E35927D006327E9 /* Tasks.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -153,17 +166,78 @@
 		7045D6531E13911C00DBD31A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				7045D6541E13917E00DBD31A /* Logger.swift */,
+				70E414EF1E176BFA005CB4A4 /* ConfigUtil.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
 		};
-		7045D6561E13919600DBD31A /* Services */ = {
+		70E414E91E175AFD005CB4A4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				7045D6571E1391C900DBD31A /* APIClient.swift */,
+				70E414EC1E175B4E005CB4A4 /* Task */,
+				70E414EB1E175B43005CB4A4 /* Login */,
+				70E414EA1E175B35005CB4A4 /* Account */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		70E414EA1E175B35005CB4A4 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				7C57952E1E0D9996002FB516 /* AccountViewController.swift */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		70E414EB1E175B43005CB4A4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7C5795621E0E0565002FB516 /* LoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		70E414EC1E175B4E005CB4A4 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				7C57952C1E0D9996002FB516 /* TasksViewController.swift */,
+				7C57955A1E0DC88A002FB516 /* AddNewTaskViewController.swift */,
+			);
+			name = Task;
+			sourceTree = "<group>";
+		};
+		70E415101E17B8F9005CB4A4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				70F2B0A11E35A961006327E9 /* Persistence */,
+				70E415111E17B95C005CB4A4 /* AsynchronousOperation.swift */,
+				70E415131E17B9B8005CB4A4 /* NetworkOperation.swift */,
 			);
 			name = Services;
+			sourceTree = "<group>";
+		};
+		70F2B09F1E3598D7006327E9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				70F2B09D1E3598CE006327E9 /* LoginViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		70F2B0A11E35A961006327E9 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				70F2B0A21E35A991006327E9 /* UserPersistenceOperation.swift */,
+			);
+			name = Persistence;
+			sourceTree = "<group>";
+		};
+		70F2B0A41E35AA09006327E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				70F2B0A51E35AA27006327E9 /* User.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		7C57951E1E0D9995002FB516 = {
@@ -184,6 +258,7 @@
 				7C5795271E0D9996002FB516 /* TaskMeNot.app */,
 				7C57953D1E0D9996002FB516 /* TaskMeNotTests.xctest */,
 				7C5795481E0D9996002FB516 /* TaskMeNotUITests.xctest */,
+				70E4150E1E1783AF005CB4A4 /* TaskMeNotDev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,7 +270,12 @@
 				7045D64C1E138EC100DBD31A /* Classes */,
 				7C57952A1E0D9996002FB516 /* AppDelegate.swift */,
 				7C5795331E0D9996002FB516 /* Assets.xcassets */,
+				70E414F31E176EEA005CB4A4 /* GoogleService-Info.plist */,
+				70E414F11E176E95005CB4A4 /* GoogleServiceDev-Info.plist */,
+				70E414ED1E176AEE005CB4A4 /* config_default_prod.plist */,
 				7C5795381E0D9996002FB516 /* Info.plist */,
+				70E4150F1E1783AF005CB4A4 /* TaskMeNotDev-Info.plist */,
+				70F2B0A71E35D81C006327E9 /* config_default_dev.plist */,
 			);
 			path = TaskMeNot;
 			sourceTree = "<group>";
@@ -218,20 +298,13 @@
 			path = TaskMeNotUITests;
 			sourceTree = "<group>";
 		};
-		7C5795611E0E0538002FB516 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				7C57952C1E0D9996002FB516 /* TasksViewController.swift */,
-				7C57955A1E0DC88A002FB516 /* AddNewTaskViewController.swift */,
-			);
-			name = ViewControllers;
-			sourceTree = "<group>";
-		};
 		90C6A24B93C15B79271B01AF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				1AB28FC082C1C169F5B1132E /* Pods-TaskMeNot.debug.xcconfig */,
 				29FF731E72D0CF219F8364C4 /* Pods-TaskMeNot.release.xcconfig */,
+				91D649B61CC6374BF24E1E5F /* Pods-TaskMeNotDev.debug.xcconfig */,
+				BC63853F43606A427C213ABD /* Pods-TaskMeNotDev.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -240,6 +313,7 @@
 			isa = PBXGroup;
 			children = (
 				39C2DD15424E620F8C1470B6 /* Pods_TaskMeNot.framework */,
+				BC01CC6F4ABEB59191D706AC /* Pods_TaskMeNotDev.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -247,6 +321,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		70E414F51E1783AF005CB4A4 /* TaskMeNotDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70E4150B1E1783AF005CB4A4 /* Build configuration list for PBXNativeTarget "TaskMeNotDev" */;
+			buildPhases = (
+				70E414F61E1783AF005CB4A4 /* [CP] Check Pods Manifest.lock */,
+				70E414F71E1783AF005CB4A4 /* Sources */,
+				70E415001E1783AF005CB4A4 /* Frameworks */,
+				70E415021E1783AF005CB4A4 /* Resources */,
+				70E415091E1783AF005CB4A4 /* [CP] Embed Pods Frameworks */,
+				70E4150A1E1783AF005CB4A4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaskMeNotDev;
+			productName = TaskMeNot;
+			productReference = 70E4150E1E1783AF005CB4A4 /* TaskMeNotDev.app */;
+			productType = "com.apple.product-type.application";
+		};
 		7C5795261E0D9995002FB516 /* TaskMeNot */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C5795511E0D9996002FB516 /* Build configuration list for PBXNativeTarget "TaskMeNot" */;
@@ -313,6 +407,9 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Rohit Nisal";
 				TargetAttributes = {
+					70E414F51E1783AF005CB4A4 = {
+						DevelopmentTeam = 3Y57FJF6PJ;
+					};
 					7C5795261E0D9995002FB516 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 3Y57FJF6PJ;
@@ -344,6 +441,7 @@
 			projectRoot = "";
 			targets = (
 				7C5795261E0D9995002FB516 /* TaskMeNot */,
+				70E414F51E1783AF005CB4A4 /* TaskMeNotDev */,
 				7C57953C1E0D9996002FB516 /* TaskMeNotTests */,
 				7C5795471E0D9996002FB516 /* TaskMeNotUITests */,
 			);
@@ -351,13 +449,34 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		70E415021E1783AF005CB4A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E415031E1783AF005CB4A4 /* config_default_prod.plist in Resources */,
+				70E415041E1783AF005CB4A4 /* LaunchScreen.storyboard in Resources */,
+				70F2B0A91E35D9FA006327E9 /* config_default_dev.plist in Resources */,
+				70E415051E1783AF005CB4A4 /* Assets.xcassets in Resources */,
+				70E415181E17C281005CB4A4 /* TaskMeNotDev-Info.plist in Resources */,
+				70E415061E1783AF005CB4A4 /* GoogleServiceDev-Info.plist in Resources */,
+				70E415071E1783AF005CB4A4 /* Main.storyboard in Resources */,
+				70E415081E1783AF005CB4A4 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7C5795251E0D9995002FB516 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70E414EE1E176AEE005CB4A4 /* config_default_prod.plist in Resources */,
 				7C5795371E0D9996002FB516 /* LaunchScreen.storyboard in Resources */,
 				7C5795341E0D9996002FB516 /* Assets.xcassets in Resources */,
+				70F2B0A81E35D81C006327E9 /* config_default_dev.plist in Resources */,
+				70E415171E17C280005CB4A4 /* TaskMeNotDev-Info.plist in Resources */,
+				70E414F21E176E95005CB4A4 /* GoogleServiceDev-Info.plist in Resources */,
+				70F2B09C1E35927D006327E9 /* Tasks.storyboard in Resources */,
 				7C5795321E0D9996002FB516 /* Main.storyboard in Resources */,
+				70E414F41E176EEA005CB4A4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +527,51 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaskMeNot/Pods-TaskMeNot-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		70E414F61E1783AF005CB4A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70E415091E1783AF005CB4A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaskMeNotDev/Pods-TaskMeNotDev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70E4150A1E1783AF005CB4A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaskMeNotDev/Pods-TaskMeNotDev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9F65CE996925AC18A4817500 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -426,17 +590,37 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		70E414F71E1783AF005CB4A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E414F81E1783AF005CB4A4 /* AccountViewController.swift in Sources */,
+				70E414FB1E1783AF005CB4A4 /* AppDelegate.swift in Sources */,
+				70E414FC1E1783AF005CB4A4 /* AddNewTaskViewController.swift in Sources */,
+				70E414FD1E1783AF005CB4A4 /* LoginViewController.swift in Sources */,
+				70E414FE1E1783AF005CB4A4 /* TasksViewController.swift in Sources */,
+				70E415161E17BBE3005CB4A4 /* AsynchronousOperation.swift in Sources */,
+				70E415151E17BBE0005CB4A4 /* NetworkOperation.swift in Sources */,
+				70E414FF1E1783AF005CB4A4 /* ConfigUtil.swift in Sources */,
+				70F2B0A01E35A8A7006327E9 /* LoginViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7C5795231E0D9995002FB516 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70F2B0A31E35A991006327E9 /* UserPersistenceOperation.swift in Sources */,
 				7C57952F1E0D9996002FB516 /* AccountViewController.swift in Sources */,
-				7045D6581E1391C900DBD31A /* APIClient.swift in Sources */,
-				7045D6551E13917E00DBD31A /* Logger.swift in Sources */,
+				70E415141E17B9B8005CB4A4 /* NetworkOperation.swift in Sources */,
 				7C57952B1E0D9996002FB516 /* AppDelegate.swift in Sources */,
 				7C57955B1E0DC88A002FB516 /* AddNewTaskViewController.swift in Sources */,
+				70E415121E17B95C005CB4A4 /* AsynchronousOperation.swift in Sources */,
 				7C5795631E0E0565002FB516 /* LoginViewController.swift in Sources */,
 				7C57952D1E0D9996002FB516 /* TasksViewController.swift in Sources */,
+				70E414F01E176BFA005CB4A4 /* ConfigUtil.swift in Sources */,
+				70F2B09E1E3598CE006327E9 /* LoginViewModel.swift in Sources */,
+				70F2B0A61E35AA27006327E9 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +656,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		70F2B09A1E35927D006327E9 /* Tasks.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70F2B09B1E35927D006327E9 /* Base */,
+			);
+			name = Tasks.storyboard;
+			sourceTree = "<group>";
+		};
 		7C5795301E0D9996002FB516 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -491,6 +683,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		70E4150C1E1783AF005CB4A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D649B61CC6374BF24E1E5F /* Pods-TaskMeNotDev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3Y57FJF6PJ;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"GTM_OAUTH2_USE_FRAMEWORK_IMPORTS=1",
+					"DEVELOPMENT=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/TaskMeNot/TaskMeNotDev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DDEVELOPMENT";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iphone.TaskMeNot-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		70E4150D1E1783AF005CB4A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC63853F43606A427C213ABD /* Pods-TaskMeNotDev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3Y57FJF6PJ;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"GTM_OAUTH2_USE_FRAMEWORK_IMPORTS=1",
+					"DEVELOPMENT=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/TaskMeNot/TaskMeNotDev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DDEVELOPMENT";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iphone.TaskMeNot-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		7C57954F1E0D9996002FB516 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -531,7 +769,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -574,7 +812,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -588,10 +826,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3Y57FJF6PJ;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"GTM_OAUTH2_USE_FRAMEWORK_IMPORTS=1",
+					"DEVELOPMENT=0",
+				);
 				INFOPLIST_FILE = TaskMeNot/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mahalaxmi.checklist.iphone.TaskMeNot;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iphone.TaskMeNot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -603,10 +848,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3Y57FJF6PJ;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"GTM_OAUTH2_USE_FRAMEWORK_IMPORTS=1",
+					"DEVELOPMENT=0",
+				);
 				INFOPLIST_FILE = TaskMeNot/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mahalaxmi.checklist.iphone.TaskMeNot;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iphone.TaskMeNot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -669,6 +921,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		70E4150B1E1783AF005CB4A4 /* Build configuration list for PBXNativeTarget "TaskMeNotDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E4150C1E1783AF005CB4A4 /* Debug */,
+				70E4150D1E1783AF005CB4A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7C5795221E0D9995002FB516 /* Build configuration list for PBXProject "TaskMeNot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

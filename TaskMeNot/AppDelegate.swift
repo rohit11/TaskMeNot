@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Firebase
+import XCGLogger
+let log = XCGLogger.default
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,7 +20,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        showLoginScreen();
+        log.setup(level: .debug, showThreadName: true, showLevel: true, showFileNames: true, showLineNumbers: true, writeToFile: "log.txt", fileLevel: .error)
+        
+        let firbaseOptions = FIROptions(contentsOfFile: Bundle.main.path(forResource: ConfigUtil.sharedInstance.firebasePlistFileName, ofType: "plist"))
+        
+        FIRApp.configure(with : firbaseOptions!)
         return true
     }
 
